@@ -4,7 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VShop.Inventory.Api", "VShop.Inventory.Api\VShop.Inventory.Api.csproj", "{C5949821-E17E-4E0E-BC51-2336BFBBD9EE}"
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VShop.Order.Api", "VShop.Order.Api\VShop.Order.Api.csproj", "{37A73EBA-4CB9-4590-8E75-9DA72FC24FA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VShop.AppHost", "VShop.AppHost\VShop.AppHost.csproj", "{5B4174A9-5957-4B7F-B853-17A15D48FCAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VShop.ServiceDefaults", "VShop.ServiceDefaults\VShop.ServiceDefaults.csproj", "{5DE99F82-FE38-482B-8576-DFD88D2A9045}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,5 +26,13 @@ Global
 		{37A73EBA-4CB9-4590-8E75-9DA72FC24FA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37A73EBA-4CB9-4590-8E75-9DA72FC24FA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37A73EBA-4CB9-4590-8E75-9DA72FC24FA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B4174A9-5957-4B7F-B853-17A15D48FCAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B4174A9-5957-4B7F-B853-17A15D48FCAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B4174A9-5957-4B7F-B853-17A15D48FCAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B4174A9-5957-4B7F-B853-17A15D48FCAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DE99F82-FE38-482B-8576-DFD88D2A9045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DE99F82-FE38-482B-8576-DFD88D2A9045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DE99F82-FE38-482B-8576-DFD88D2A9045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DE99F82-FE38-482B-8576-DFD88D2A9045}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

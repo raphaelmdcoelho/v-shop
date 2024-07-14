@@ -27,7 +27,6 @@
 * dotnet add .\VShop.AppHost\VShop.AppHost.csproj reference .\VShop.Inventory.Api/VShop.Inventory.Api.csproj
 
 ### Create Aspire Service defaults
-
 * dotnet new aspire-servicedefaults --name VShop.ServiceDefaults
 * dotnet sln .\VShop.sln add .\VShop.ServiceDefaults\VShop.ServiceDefaults.csproj
 * dotnet add .\VShop.AppHost\VShop.AppHost.csproj reference .\VShop.ServiceDefaults\VShop.ServiceDefaults.csproj

@@ -38,3 +38,17 @@
 * dotnet run --project ./VShop.AppHost/VShop.AppHost.csproj
 
 ## How to run
+
+## Dependencies
+
+* microsoft.extensions.configuration
+* microsoft.extensinos.dependencyinjection
+* microsoft.entityframeworkcore.sqlite
+* microsoft.extensions.configuration.json
+* microsoft.extensions.configuration.file
+* microsoft.entityframeworkcore.design
+
+## Migrations
+
+* dotnet ef migrations add Initial --context InventoryDbContext
+* dotnet ef database update

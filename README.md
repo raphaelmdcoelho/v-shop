@@ -33,6 +33,9 @@
 * dotnet add .\VShop.Order.Api\VShop.Order.Api.csproj reference .\VShop.ServiceDefaults\VShop.ServiceDefaults.csproj
 * dotnet add .\VShop.Inventory.Api/VShop.Inventory.Api.csproj reference .\VShop.ServiceDefaults\VShop.ServiceDefaults.csproj
 
+### Add rabbit mq Aspire dependencies
+* dotnet add package Aspire.RabbitMQ.Client
+
 ### Start Aspire
 
 * dotnet run --project ./VShop.AppHost/VShop.AppHost.csproj

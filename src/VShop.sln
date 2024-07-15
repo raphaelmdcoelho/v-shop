@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VShop.AppHost", "VShop.AppH
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VShop.ServiceDefaults", "VShop.ServiceDefaults\VShop.ServiceDefaults.csproj", "{5DE99F82-FE38-482B-8576-DFD88D2A9045}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VShop.Domain", "VShop.Domain\VShop.Domain.csproj", "{72F01255-4DAA-40E0-8E62-C28506FC359D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VShop.Infrastructure", "VShop.Infrastructure\VShop.Infrastructure.csproj", "{C913AEF5-8B33-427E-A490-440609331F25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,5 +38,13 @@ Global
 		{5DE99F82-FE38-482B-8576-DFD88D2A9045}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DE99F82-FE38-482B-8576-DFD88D2A9045}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DE99F82-FE38-482B-8576-DFD88D2A9045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72F01255-4DAA-40E0-8E62-C28506FC359D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F01255-4DAA-40E0-8E62-C28506FC359D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F01255-4DAA-40E0-8E62-C28506FC359D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F01255-4DAA-40E0-8E62-C28506FC359D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C913AEF5-8B33-427E-A490-440609331F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C913AEF5-8B33-427E-A490-440609331F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C913AEF5-8B33-427E-A490-440609331F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C913AEF5-8B33-427E-A490-440609331F25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

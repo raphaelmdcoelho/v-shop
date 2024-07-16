@@ -36,6 +36,12 @@
 ### Add rabbit mq Aspire dependencies
 * dotnet add package Aspire.RabbitMQ.Client
 
+
+### Add Serilog
+
+* dotnet add package Serilog
+* dotnet add package Serilog.Sinks.Console
+
 ### Start Aspire
 
 * dotnet run --project ./VShop.AppHost/VShop.AppHost.csproj

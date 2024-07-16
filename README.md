@@ -33,6 +33,11 @@
 * dotnet add .\VShop.Order.Api\VShop.Order.Api.csproj reference .\VShop.ServiceDefaults\VShop.ServiceDefaults.csproj
 * dotnet add .\VShop.Inventory.Api/VShop.Inventory.Api.csproj reference .\VShop.ServiceDefaults\VShop.ServiceDefaults.csproj
 
+## Add Serilog
+
+* dotnet add package Serilog
+* dotnet add package Serilog.Sinks.Console
+
 ### Start Aspire
 
 * dotnet run --project ./VShop.AppHost/VShop.AppHost.csproj

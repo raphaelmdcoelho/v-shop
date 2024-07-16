@@ -2,6 +2,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\VShop.ServiceDefaults\VShop.ServiceDefaults.csproj" />
+    <ProjectReference Include="..\VShop.Infrastructure\VShop.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.RabbitMQ.Client" Version="8.0.2" />
+    <PackageReference Include="microsoft.entityframeworkcore.sqlite" Version="8.0.7" />
   </ItemGroup>
 
   <ItemGroup>

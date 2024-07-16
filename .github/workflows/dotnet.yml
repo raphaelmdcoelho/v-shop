@@ -21,9 +21,15 @@ jobs:
       uses: actions/setup-dotnet@v4
       with:
         global-json-file: ${{ matrix.os == 'windows-latest' && '.\src\global.json' || './src/global.json' }}
+
+    - name: Install .NET Aspire workload
+      run: dotnet workload install aspire
+
     - name: Restore dependencies
       run: ${{ matrix.os == 'windows-latest' && 'dotnet restore .\src\VShop.sln' || 'dotnet restore ./src/VShop.sln' }}
+    
     - name: Build
       run: ${{ matrix.os == 'windows-latest' && 'dotnet build --no-restore .\src\VShop.sln' ||  'dotnet build --no-restore ./src/VShop.sln' }}
+    
     - name: Test
       run: ${{ matrix.os == 'windows-latest' && 'dotnet test --no-build --verbosity normal .\src\VShop.sln' || 'dotnet test --no-build --verbosity normal ./src/VShop.sln' }}
